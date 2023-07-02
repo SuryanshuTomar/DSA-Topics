@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include <vector>
-#include "../../PrintArrCpp.h"
+#include "../../helper-functions/PrintArrCpp.h"
+
 using namespace std;
 
 void findFrequencyNumber(vector<int> &freqArr, int size, int queries) {
