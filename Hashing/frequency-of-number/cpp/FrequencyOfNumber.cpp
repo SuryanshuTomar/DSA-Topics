@@ -2,13 +2,14 @@
 
 #include <iostream>
 #include <vector>
+#include "../../PrintArrCpp.h"
 using namespace std;
 
 void findFrequencyNumber(vector<int> &freqArr, int size, int queries) {
    cout << "No. of queries you can ask : " << queries << endl;   
    for(int i = 0; i < queries; i++){
       int query;
-      cout << "Query " << i + 1 << " ";
+      cout << "Query " << i + 1 << " -> ";
       cin >>  query;
       cout <<  "Result : " << freqArr[query] << endl;
    }
@@ -26,10 +27,14 @@ int main() {
   int queries = 3;
   int size = arr.size();
 
-  vector<int> freqArr{size};
+  vector<int> freqArr(size);
 
   cout << "Size of frequency arr : " << size << endl;
   calculateFreqArr(arr, freqArr, size);
+  printVector(freqArr);
   findFrequencyNumber(freqArr, size, queries);
   return 0;
 }
+
+// Time Complexity : O(n + q), where n is the size of the array and the q is the number of queries
+// Space Complexity : (n), n is the size of the extra space taken by the frequency array.

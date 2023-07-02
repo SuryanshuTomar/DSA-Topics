@@ -31,3 +31,6 @@ public class FrequencyOfNumber {
 
    }
 }
+
+// Time Complexity : O(n + q), where n is the size of the array and the q is the number of queries
+// Space Complexity : (n), n is the size of the extra space taken by the frequency array.
