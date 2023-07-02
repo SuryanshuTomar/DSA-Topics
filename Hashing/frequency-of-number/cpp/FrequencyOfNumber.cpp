@@ -27,7 +27,7 @@ int main() {
   int queries = 3;
   int size = arr.size();
 
-  vector<int> freqArr(size);
+  vector<int> freqArr(100);
 
   cout << "Size of frequency arr : " << size << endl;
   calculateFreqArr(arr, freqArr, size);
@@ -37,4 +37,6 @@ int main() {
 }
 
 // Time Complexity : O(n + q), where n is the size of the array and the q is the number of queries
-// Space Complexity : (n), n is the size of the extra space taken by the frequency array.
+//  Space Complexity : (n), n is the size of the extra space
+// taken by the frequency array. Also, the size of the frequency array depends
+// on the max number present in the input array.

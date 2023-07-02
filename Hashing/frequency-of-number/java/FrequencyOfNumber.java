@@ -17,7 +17,7 @@ public class FrequencyOfNumber {
 
    static void findFrequencyOfNumber(int[] arr, int size, int queries, BufferedReader reader) throws IOException{
       // Create frequency array
-      int freqArr[] = new int[size];
+      int freqArr[] = new int[100];
       for(int i = 0; i < size; i++){
         freqArr[arr[i]]++;
       }
@@ -33,4 +33,4 @@ public class FrequencyOfNumber {
 }
 
 // Time Complexity : O(n + q), where n is the size of the array and the q is the number of queries
-// Space Complexity : (n), n is the size of the extra space taken by the frequency array.
+// Space Complexity : (n), n is the size of the extra space taken by the frequency array. Also, the size of the frequency array depends on the max number present in the input array.
