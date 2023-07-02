@@ -31,3 +31,6 @@ public class TwoSum {
         return new int[] {-1, -1};
     }
 }
+
+// Time Complexity: O(n), where n is the size of the array, as it is possible that we may not find the target sum in the input array and have to traverse through the whole array.
+// Space Complexity: O(n) (extra space in map), where n is the number of unique elements present in the array which will be stored in the indexMap.
