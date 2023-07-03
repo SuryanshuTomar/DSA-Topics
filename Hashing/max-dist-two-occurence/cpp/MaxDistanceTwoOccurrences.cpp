@@ -38,5 +38,6 @@ int main() {
   return 0;
 }
 
-// TC - O(n), where n is the size of the array which we are traversing to find the maximum distance between two similar elements.
-// SC - O(n), where n is the number of unique elements in the array which got stored into the firstOccMap.
+// TC - O(n), where n is the size of the array which we are traversing to find
+// the maximum distance between two similar elements. SC - O(n), where n is the
+// number of unique elements in the array which got stored into the firstOccMap.
