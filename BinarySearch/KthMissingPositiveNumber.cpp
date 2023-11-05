@@ -5,7 +5,6 @@
 
 using namespace std;
 
-// Solution using Binary Search
 int findKthPositive(vector<int> &arr, int k) {
   int start = 0;
   int end = arr.size() - 1;
