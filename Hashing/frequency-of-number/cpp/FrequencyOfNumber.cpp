@@ -37,6 +37,9 @@ int main() {
   //  int array outside of the main.
   //  2. For bool array it is 10^7 size inside main and 10^8 size outside of
   //  main.
+  // 3. We cannot hash content using array if the size of input increase from
+  // 10^7. So, We have to hash the data using other method which is hashing
+  // using hashmaps.
 
   // precompute
   // If the problem statement states that the size of the array will be 10^5
