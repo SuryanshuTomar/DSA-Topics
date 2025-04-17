@@ -123,3 +123,5 @@
 //    a. Hash Code function (which encrypt the data to store the data more efficiently)
 //    b. Compression function (which does the mapping and find out where to store and access the stored element)
 
+// Understanding Real World use case on hashing, public, private key and digital signatures -
+// https://www.youtube.com/watch?v=TLk7_Ia3rzQ&t=3170s
